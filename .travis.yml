@@ -1,7 +1,7 @@
 language: node_js
 node_js: node
 services: mongodb
-env: AUTH_SECRET=notS3cret
+env: MONGODB_URI=mongodb://localhost:27017/notes
 deploy:
   provider: heroku
   api_key:
